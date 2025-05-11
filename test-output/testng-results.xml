@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2964" started-at="2025-05-11T04:12:57Z" finished-at="2025-05-11T04:13:00Z">
+  <suite name="Default suite" duration-ms="2887" started-at="2025-05-11T06:45:31Z" finished-at="2025-05-11T06:45:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2964" started-at="2025-05-11T04:12:57Z" finished-at="2025-05-11T04:13:00Z">
+    <test name="Default test" duration-ms="2887" started-at="2025-05-11T06:45:31Z" finished-at="2025-05-11T06:45:34Z">
       <class name="TestSample.DifferentWaysPostReq">
-        <test-method status="PASS" signature="testUsingHashMap()[pri:0, instance:TestSample.DifferentWaysPostReq@4667ae56]" name="testUsingHashMap" duration-ms="2945" started-at="2025-05-11T04:12:57Z" finished-at="2025-05-11T04:13:00Z">
+        <test-method status="PASS" signature="testUsingHashMap()[pri:0, instance:TestSample.DifferentWaysPostReq@4667ae56]" name="testUsingHashMap" duration-ms="2869" started-at="2025-05-11T06:45:31Z" finished-at="2025-05-11T06:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUsingHashMap -->

@@ -12,8 +12,8 @@ import static org.hamcrest.Matchers.*;
 
 public class DifferentWaysPostReq {
 	
-	@Test
-	void testUsingHashMap() {
+	@Test (priority =1)
+	void testPostUsingHashMap() {
 		
 		
 		HashMap data = new HashMap();
@@ -38,6 +38,18 @@ public class DifferentWaysPostReq {
 			.statusCode(200)
 			.body("name",equalTo("Vijendran"))
 			.log().all();
+		
+	}
+	
+	@Test(priority =2)
+	void testDeleteUser() {
+		
+		given()
+			.when()
+				.delete("http://localhost:3000/stud_det/1")
+		.then()
+		.statusCode(200);
+		
 		
 	}
 
